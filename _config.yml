@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Backend Engineering, Infrastructure, Cloud, and everything in between
 baseurl: "/tech-blog-v3.github.io" # the subpath of your site, e.g. /blog
 url: "https://cpaika.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: "@ChrisPaika"
+twitter_username: "ChrisPaika"
 github_username:  cpaika
 
 # Build settings
