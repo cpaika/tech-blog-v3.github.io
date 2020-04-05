@@ -3,6 +3,7 @@ layout: page
 title: Standing Invitation
 permalink: /standing-invitation/
 ---
+I was once a shy engineer, who didn't really understand that other people not only could, but wanted, to help me in my career.  I would read articles and books from other engineers, and somehow never realized that I could just write to them and say hello.  I always believed I had to improve on my own - that I was too junior, or too dumb, and I had nothing of value I could say to get these people's attention.  I came to think of asking for help as a sign of inadequacy, that I was too incompetent to figure it out on my own.  I was in a self imposed isolation from the broader software community.  What I learned over time however was just how wrong I was.  No matter where you are in your career, you will always go farther will help and mentoring from a friend.  Learning from others is a strength, not a weakness.  You don't need to have the perfect question to reach out, or fear being seen as annoying.  The software industry is filled with people who would love to help you.  So to pay it back, here it goes:
 
 **This is a standing invitation - if you want to talk about software or infrastructure, I want to talk to you.**
 
