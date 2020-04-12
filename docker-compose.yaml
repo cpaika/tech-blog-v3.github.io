@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jekyll:
+    ports:
+      - "4000:4000"
+    image: jekyll/jekyll
+    volumes:
+      - .:/jekyll
+    environment:
+      - JEKYLL_ENV=production
+    entrypoint: ["jekyll", "serve"]
+    working_dir: /jekyll
