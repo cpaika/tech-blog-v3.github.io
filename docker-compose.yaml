@@ -8,5 +8,5 @@ services:
       - .:/jekyll
     environment:
       - JEKYLL_ENV=development
-    entrypoint: ["jekyll", "serve", "--drafts"]
+    entrypoint: ["jekyll", "serve", "--drafts", "--future"]
     working_dir: /jekyll
