@@ -7,6 +7,6 @@ services:
     volumes:
       - .:/jekyll
     environment:
-      - JEKYLL_ENV=production
-    entrypoint: ["jekyll", "serve"]
+      - JEKYLL_ENV=development
+    entrypoint: ["jekyll", "serve", "--drafts"]
     working_dir: /jekyll
