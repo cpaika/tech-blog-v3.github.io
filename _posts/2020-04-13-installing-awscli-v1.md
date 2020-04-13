@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Installing the AWS CLI Version 1 on Mac OS with Homebrew"
+title:  "Installing the AWS CLI Version 1 on macOS with Homebrew"
 date:   2020-04-13 19:33:00 -0400
 categories: blog
 ---
