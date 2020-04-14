@@ -4,7 +4,8 @@ title:  "How to break the Disengagement Death Spiral"
 date:   2018-12-09 12:00:00 -0400
 categories: blog
 ---
-**Note** *- this is a migrated post from a previous attempt at a blog.  Please forgive the writing style!*
+
+**Editor's Note** *- this is a migrated post from a previous attempt at a blog.*
 
 I recently had the awesome opportunity to temporarily join a new team at my company.  I was very excited – I was going to get to work with new people and technologies, and after a few months would come back to my original team.  Couldn’t sound better!
 
