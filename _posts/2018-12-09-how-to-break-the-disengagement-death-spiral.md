@@ -23,4 +23,4 @@ When you don’t have context on a team or organization, such as the systems the
 
 While its embarrasing to post that I was unproductive for two months, I think addressing problems like these brings to the light things that happen to everyone.  This negative cycle is a real risk that can happen to anyone joining a new team.  My next post we will go over the flip side to this, the positive feedback loop that happens when you are engaged in a task, and what you can do (as well as what you can do as a good team mate) to pull yourself out of the death spiral.
 
-Big shout out to the book Principles: Life and Work by Ray Dalio  – great book on how to take a hard look at mistakes you’ve made, and use them to improve in the future.
+Big shout out to the book [Principles: Life and Work by Ray Dalio](https://www.principles.com/)  – great book on how to take a hard look at mistakes you’ve made, and use them to improve in the future.
