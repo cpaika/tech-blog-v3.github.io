@@ -1,65 +1,100 @@
 ---
 layout: post
-title:  "WWW is just a Subdomain"
+title:  "The origins of www"
 date:   2020-04-30 21:00:00 -0400
 categories: blog
 ---
 
-When you begin your engineering career, there's so many things you have to take for granted. They work - and you don't think twice about them.  There's so much to internalize, you don't have time to question the things that 'just work'.
+When you begin your engineering career, there's concepts you have to take for granted. They work - and you don't think twice about them.  There's so much you have to internalize, you can't question everything.
 
-As your engineering abilities mature, you start to identify and question those assumptions.  It's always a fun experience when you realize you completely misunderstood something!  I really can't imagine a better way to keep yourself humble.
+As your engineering abilities mature, you start to identify and question those assumptions.  It's always a fun experience when you realize you completely misunderstood something!  There's no better way to keep yourself humble.
 
-One of those humbling moments happened to me yesterday when I realized I had no idea what the "www" was.  I've seen it everywhere my whole life prepended on domain names, and had never stopped to consider what it *actually* was.
+One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  I'd seen it everywhere my whole life prefixed on webpages, and had never stopped to consider what it *actually was*.
 
+Image alt: www.wikipedia.com with question marks around the www.
 
-//TODO Move the conclusion down some to keep the story interesting
-One night of digging into IETF RFC's later - turns out - `www` is just subdomain!  It has no technical meaning.[^1]
+So I decided to do some digging.  Rather than read someone elses interpretations, I wanted to figure this mystery out by reading the sources directly.  The standards for the web were created by the IETF - the Internet Engineering Task Force.  They were created in the late 80's and 90's in numerous technical whitepapers, called RFC's - Request For Comments.  They are all hosted on the [IETF website](https://www.rfc-editor.org/rfc-index.html).  Turns out RFC's are surprisingly easy to read![^1]
 
-To understand, lets breakdown a URL.  In [RFC-1738](https://tools.ietf.org/html/rfc1738), they specify:
-
-An HTTP URL takes the form:
-
+### Breaking Down a URL
+To begin the investigation, lets breakdown a URL.  In [RFC-1738](https://tools.ietf.org/html/rfc1738), they specify an HTTP URL takes the form:
+      
       http://<host>:<port>/<path>?<searchpart>
 
-So using that, lets breakdown `[https://www.paika.tech](https://www.paika.tech)`.  
-The `https` is easy - that's the protocol we are are using - HTTP over TLS.
+So using that specification lets analyze [https://www.paika.tech](https://www.paika.tech).  
 
-The :// seperates the protocol from the hostname - why `://` was chosen as a seperator is a whole different story we'll have to get to another time!
+<pre>
+<b>https</b>://www.paika.tech
+</pre>
 
-As per that RFC `www.paika.tech` is then host.  
-The host is defined as:
-host
-        The fully qualified domain name of a network host, or its IP
-        address
+The `https` is easy - that's the protocol we are are using, HTTP over TLS.[^2]
 
-In this case, this is the fully qualified domain name.  Which means the TLD is tech, and the domain is paika, and the subdommain is `www`.
+<pre>
+https<b>://</b>www.paika.tech
+</pre>
 
-So all that `www` is is a subdomain of paika.tech - nothing more.
+The :// seperates the protocol from the hostname.  Why `://` was chosen as a seperator is a whole different story [you can read here](https://www.w3.org/People/Berners-Lee/FAQ.html#etc).
 
-But if www is just a subdomain, and has no technical significance - why have I seen it my entire life?  Why is it the standard?
+<pre>
+https://<b>www.paika.tech</b>
+</pre>
 
-So I went through some more RFC's - and as I skimmed through I couldn't find a reference to the `www` subdomain being a standard or convention anywhere.
+We don't have a :<port> in this URL, or a `/<path>`, therefore `www.paika.tech` is the host.  But what's a host?
 
-So what gives?  
+### Hosts
 
-Digging deeper, the first web page, the infamous 'TheProject' page, didn't even have www as a subdomain!  It URL was [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html).
+[RFC-1738](https://tools.ietf.org/html/rfc1738) defines a host as "The fully qualified domain name of a network host, or its IP address..."
 
-I was about to give up, when I found this gem on Wikipedia:
+Since its clearly not an IP address, `www.paika.tech` is the fully qualified domain name.  A fully qualified domain name is a long, fancy phrase for a full URL, that includes the top level domain (.com, .org, .tech, etc).  So www.google.com is a fully qualified domain name, but google is not.
 
-"the [[World Wide Web]] project page was intended to be published at [www.cern.ch](http://www.cern.ch/) while [info.cern.ch](http://info.cern.ch/) was intended to be the [[CERN]] home page, however the [[DNS]] records were never switched, and the practice of prepending www to an institution's website domain name was subsequently copied"
+Let's breakdown the domain:
 
-And that, is where the trail runs cold.  Wikipedia attributes the quote to a now defunct webpage, where it appeared to appear in a talk X gave at a conference in France.  The wayback machine has preserved the webpage, but not the video where the quote originated.  
+<pre>
+https://www.paika.<b>tech</b>
+</pre>
 
-Some googling leads to others who lay the same claim, but no conclusive source material to pull the quotation from.
+This is the top level domain name (TLD).  Top level domains are the last part in a URL.  They are at the highest level in the DNS tree, and are registered in the DNS Root Zone by ICANN.
 
-So go figure - www, which I've heard, seen printed, and typed myself thousands of time isn't even a convention - its a copy and paste error!
+<pre>
+https://www.<b>paika</b>.tech
+</pre>
 
-If there's one thing I despise, it's code or patterns that have no meaning and is just copy and pasted endlessly.  It looks like I'm not alone either.  Sites like [no-www]([http://no-www.org/](http://no-www.org/)) have been fighting the good fight since 2003, arguing that:
+This is the name of my website, which is a subdomain of .tech.
 
-"Succinctly, use of the www subdomain is redundant and time consuming to communicate. The internet, media, and society are all better off without it."
+<pre>
+https://<b>www</b>.paika.tech
+</pre>
 
-So there we have it.  Not only does www have no meaning, it's a dumb copy & paste artifact from the very beginning of the web.
+This is just a subdomain of paika.tech!
+
+So there we have it - `www` is a subdomain - nothing more.
+
+But if www is just a subdomain and has no technical purpose, why have I seen it my entire life?  Why does everyone use it in their webpages?
+
+### Finding the source
+
+Looking for an answer I went through some more RFC's - and as I skimmed through I couldn't find a single reference to the `www` subdomain being a standard or convention.
+
+So it has no technical significance, and it's not a documented standard - which pointed to it being a cultural artifact. 
+
+So I searched more.  Finally, after almost giving up I found this gem on Wikipedia:
+
+> "...the World Wide Web project page was intended to be published at [www.cern.ch](http://www.cern.ch/) while [info.cern.ch](http://info.cern.ch/) was intended to be the CERN home page, however the DNS records were never switched, and the practice of prepending www to an institution's website domain name was subsequently copied"[^3]
+
+The first web page Tim Berners-Lee, the web's creator, published was the World Wide Web Project Page, [TheProject](http://info.cern.ch/hypertext/WWW/TheProject.html).  However it was intended that info.cern.ch would be the CERN homepage, and www.cern.ch be the World Wide Web Project Page.  The CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was www.cern.ch that using www as a subdomain was the standard.  They copied the pattern, as did others and that was that.  From then on, it had a life of its own and continues being copied to this day!  
+
+So go figure - www, which I've heard, read, and typed myself thousands of time isn't even a convention - its a copy and paste artifact!  
+
+If there's one thing I hate, it's code or patterns that have no meaning and are just copied endlessly.  It looks like I'm not alone either.  Websites like [no-www]([http://no-www.org/](http://no-www.org/)) have been fighting the good fight since 2003, arguing that:
+
+> Succinctly, use of the www subdomain is redundant and time consuming to communicate. The internet, media, and society are all better off without it.
+
+There's no better way to put it.  So next time you are making a project, and you decide to put off a small task to clean things up - remember this story.  Things you don't get around to fixing can have a life of their own.
 
 ---
+For the sources and research for this post, please check out my [Roam Research Graph](https://roamresearch.com/#/app/ChrisPaika/graph)
 
-[^1]: I highly recommend giving an IETF RFC a read.  Great way to gain perspective on how the Web was created.  [RFC-1738](https://tools.ietf.org/html/rfc1738) sets the standard for URLs, and while long is quite readable!
+[^1]: I highly recommend giving an IETF RFC a read.  It's a great way to gain perspective on how the Web was created.  [RFC-1738](https://tools.ietf.org/html/rfc1738) sets the standard for URLs, and while long is quite readable!
+
+[^2]: Fun fact, if you notice in the HTTP URL specification they only define http as the protocol `http://<host>:<port>/<path>?<searchpart>`, and not https.  At the time of RFC-1738 being published, Netscape had just created https - the IETF didn't take over the standard until 1996, so it wasn't present in any standards documentation.
+
+[^3]:  This quote is where the trail runs cold.  Wikipedia attributes the quote to a keynote by Paolo Palazzi, hosted by a now defunct website.  Paolo was a coworker of Tim Berners-Lee at CERN.  While the Wayback Machine has preserved the webpage, it hasn't preserved the video where the quote originated.  Other websites have copied the same quote from Wikipedia, but it appears theres longer any source material to pull the quotation from.
