@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Why do URL's start with www?
+title: Why do URLs start with www?
 description: Exploring the origins of the www. prefix in web URL's
 image: /assets/www-questions.jpg
-date:   2020-05-04 7:00:00 -0400
+date:   2020-05-04 8:00:00 -0400
 categories: blog
 ---
 
@@ -11,11 +11,11 @@ When you begin your engineering career, there's concepts you have to take for gr
 
 As your engineering abilities mature, you start to identify and question those assumptions.  It's always a fun experience when you realize you completely misunderstood something!  There's no better way to keep yourself humble.
 
-One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  Obviously its an acronym for the 'World Wide Web', but what's its technical significance?  I've seen it everywhere my whole life prefixed on web URLs, and had never stopped to consider what it *actually is*.
+One of those humbling moments happened to me recently when I realized I had no idea what `www` meant.  Obviously it's an acronym for the 'World Wide Web', but what's its technical significance?  I've seen it everywhere my whole life prefixed on web URLs, and had never stopped to consider what it *actually is*.
 
 ![Various website URL's with the www portion highlighted surrounding a question mark](/assets/www-questions.jpg)
 
-So I decided to do some digging.  Rather than read someone elses interpretations, I decided to figure this mystery out by reading the sources directly.  The standards for the web were created by the IETF - the Internet Engineering Task Force.  They were documented in the late 80's and 90's in numerous technical whitepapers, called RFC's - Request For Comments.  They are all still hosted on the [IETF website](https://www.rfc-editor.org/rfc-index.html).  Turns out RFC's are surprisingly easy to read![^1]
+So I decided to do some digging.  Rather than read someone else's interpretations, I chose to figure this mystery out by reading the sources directly.  The standards for the web were created by the IETF - the Internet Engineering Task Force.  They were documented in the late 80's and 90's in numerous technical whitepapers, called RFC's - Request For Comments.  They are all still hosted on the [IETF website](https://www.rfc-editor.org/rfc-index.html).  Turns out RFC's are surprisingly easy to read![^1]
 
 ### Breaking Down a URL
 To begin the investigation, lets breakdown a URL.  In [RFC-1738](https://tools.ietf.org/html/rfc1738), they specify an HTTP URL takes the form:
@@ -48,7 +48,7 @@ We don't have a `:<port>` in this URL, or a `/<path>`, therefore `www.paika.tech
 
 Since its clearly not an IP address, `www.paika.tech` is the fully qualified domain name.  A fully qualified domain name is a long, fancy phrase for a full URL, that includes the top level domain (.com, .org, .tech, etc).  So `www.google.com` is a fully qualified domain name, but `google` is not.
 
-Let's breakdown the domain:
+Now let's breakdown the domain:
 
 <pre>
 https://www.paika.<b>tech</b>
@@ -84,7 +84,7 @@ So I searched more.  Finally, after almost giving up I found this gem on Wikiped
 
 The first web page was published by Tim Berners-Lee, the web's creator.  It was called the World Wide Web Project Page and was located at [info.cern.ch/hypertext/WWW/TheProject.html](info.cern.ch/hypertext/WWW/TheProject.html).  
 
-It seems [info.cern.ch](info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others, and that was that.  From then on it had a life of its own and continues being copied to this day.
+It seems that [info.cern.ch](info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others, and that was that.  From then on it had a life of its own and continues being copied to this day.
 
 So go figure - `www`, which I've heard, read, and typed myself thousands of time isn't even a convention - its a copy and paste artifact!  
 
