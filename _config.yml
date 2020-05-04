@@ -39,7 +39,7 @@ plugins:
 twitter:
   username: ChrisPaika
 #https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#author-information
-# author:
+author: Chris Paika
 #   twitter: ChrisPaika
 
 # Exclude from processing.
