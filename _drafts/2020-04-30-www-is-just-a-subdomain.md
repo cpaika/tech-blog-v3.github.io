@@ -11,7 +11,7 @@ As your engineering abilities mature, you start to identify and question those a
 
 One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  I'd seen it everywhere my whole life prefixed on webpages, and had never stopped to consider what it *actually was*.
 
-Image alt: www.wikipedia.com with question marks around the www.
+![Various website URL's with the www portion highlighted surrounding a question mark](/assets/www-questions.jpg)
 
 So I decided to do some digging.  Rather than read someone elses interpretations, I wanted to figure this mystery out by reading the sources directly.  The standards for the web were created by the IETF - the Internet Engineering Task Force.  They were created in the late 80's and 90's in numerous technical whitepapers, called RFC's - Request For Comments.  They are all hosted on the [IETF website](https://www.rfc-editor.org/rfc-index.html).  Turns out RFC's are surprisingly easy to read![^1]
 
