@@ -39,8 +39,8 @@ plugins:
 twitter:
   username: ChrisPaika
 #https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#author-information
-author:
-  twitter: ChrisPaika
+# author:
+#   twitter: ChrisPaika
 
 # Exclude from processing.
 # The following items will not be processed, by default.
