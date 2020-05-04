@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "The origins of www"
+description: Exploring the origins of the www. prefix in web URL's
+image: /assets/www-questions.jpgs
 date:   2020-04-30 21:00:00 -0400
 categories: blog
 ---
@@ -9,11 +11,11 @@ When you begin your engineering career, there's concepts you have to take for gr
 
 As your engineering abilities mature, you start to identify and question those assumptions.  It's always a fun experience when you realize you completely misunderstood something!  There's no better way to keep yourself humble.
 
-One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  I'd seen it everywhere my whole life prefixed on webpages, and had never stopped to consider what it *actually was*.
+One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  Obviously its an acronym for the 'World Wide Web', but what's its technical significance?  I'd seen it everywhere my whole life prefixed on webpages, and had never stopped to consider what it *actually is*.
 
 ![Various website URL's with the www portion highlighted surrounding a question mark](/assets/www-questions.jpg)
 
-So I decided to do some digging.  Rather than read someone elses interpretations, I wanted to figure this mystery out by reading the sources directly.  The standards for the web were created by the IETF - the Internet Engineering Task Force.  They were created in the late 80's and 90's in numerous technical whitepapers, called RFC's - Request For Comments.  They are all hosted on the [IETF website](https://www.rfc-editor.org/rfc-index.html).  Turns out RFC's are surprisingly easy to read![^1]
+So I decided to do some digging.  Rather than read someone elses interpretations, I decided to figure this mystery out by reading the sources directly.  The standards for the web were created by the IETF - the Internet Engineering Task Force.  They were documented in the late 80's and 90's in numerous technical whitepapers, called RFC's - Request For Comments.  They are all still hosted on the [IETF website](https://www.rfc-editor.org/rfc-index.html).  Turns out RFC's are surprisingly easy to read![^1]
 
 ### Breaking Down a URL
 To begin the investigation, lets breakdown a URL.  In [RFC-1738](https://tools.ietf.org/html/rfc1738), they specify an HTTP URL takes the form:
@@ -32,19 +34,19 @@ The `https` is easy - that's the protocol we are are using, HTTP over TLS.[^2]
 https<b>://</b>www.paika.tech
 </pre>
 
-The :// seperates the protocol from the hostname.  Why `://` was chosen as a seperator is a whole different story [you can read here](https://www.w3.org/People/Berners-Lee/FAQ.html#etc).
+The `://` seperates the protocol from the hostname.  Why `://` was chosen as a seperator is a whole different story [you can read here](https://www.w3.org/People/Berners-Lee/FAQ.html#etc).
 
 <pre>
 https://<b>www.paika.tech</b>
 </pre>
 
-We don't have a :<port> in this URL, or a `/<path>`, therefore `www.paika.tech` is the host.  But what's a host?
+We don't have a `:<port>` in this URL, or a `/<path>`, therefore `www.paika.tech` is the host.  But what's a host?
 
 ### Hosts
 
 [RFC-1738](https://tools.ietf.org/html/rfc1738) defines a host as "The fully qualified domain name of a network host, or its IP address..."
 
-Since its clearly not an IP address, `www.paika.tech` is the fully qualified domain name.  A fully qualified domain name is a long, fancy phrase for a full URL, that includes the top level domain (.com, .org, .tech, etc).  So www.google.com is a fully qualified domain name, but google is not.
+Since its clearly not an IP address, `www.paika.tech` is the fully qualified domain name.  A fully qualified domain name is a long, fancy phrase for a full URL, that includes the top level domain (.com, .org, .tech, etc).  So `www.google.com` is a fully qualified domain name, but `google` is not.
 
 Let's breakdown the domain:
 
@@ -80,15 +82,18 @@ So I searched more.  Finally, after almost giving up I found this gem on Wikiped
 
 > "...the World Wide Web project page was intended to be published at [www.cern.ch](http://www.cern.ch/) while [info.cern.ch](http://info.cern.ch/) was intended to be the CERN home page, however the DNS records were never switched, and the practice of prepending www to an institution's website domain name was subsequently copied"[^3]
 
-The first web page Tim Berners-Lee, the web's creator, published was the World Wide Web Project Page, [TheProject](http://info.cern.ch/hypertext/WWW/TheProject.html).  However it was intended that info.cern.ch would be the CERN homepage, and www.cern.ch be the World Wide Web Project Page.  The CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was www.cern.ch that using www as a subdomain was the standard.  They copied the pattern, as did others and that was that.  From then on, it had a life of its own and continues being copied to this day!  
+The first web page was published by Tim Berners-Lee, the web's creator.  It was called the World Wide Web Project Page and was located at [info.cern.ch/hypertext/WWW/TheProject.html](info.cern.ch/hypertext/WWW/TheProject.html).  
 
-So go figure - www, which I've heard, read, and typed myself thousands of time isn't even a convention - its a copy and paste artifact!  
+It seems [info.cern.ch](info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others and that was that.  From then on, it had a life of its own and continues being copied to this day.
 
-If there's one thing I hate, it's code or patterns that have no meaning and are just copied endlessly.  It looks like I'm not alone either.  Websites like [no-www]([http://no-www.org/](http://no-www.org/)) have been fighting the good fight since 2003, arguing that:
+So go figure - `www`, which I've heard, read, and typed myself thousands of time isn't even a convention - its a copy and paste artifact!  
+
+If there's one thing I hate, it's code or patterns that have no meaning and are just copied endlessly.  It looks like I'm not alone either.  Websites like [no-www](http://no-www.org/) have been fighting the good fight since 2003, arguing that:
 
 > Succinctly, use of the www subdomain is redundant and time consuming to communicate. The internet, media, and society are all better off without it.
 
 There's no better way to put it.  So next time you are making a project, and you decide to put off a small task to clean things up - remember this story.  Things you don't get around to fixing can have a life of their own.
+
 
 ---
 For the sources and research for this post, please check out my [Roam Research Graph](https://roamresearch.com/#/app/ChrisPaika/graph)
