@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The origins of www"
+title: Why do URL's start with www?
 description: Exploring the origins of the www. prefix in web URL's
-image: /assets/www-questions.jpgs
-date:   2020-04-30 21:00:00 -0400
+image: /assets/www-questions.jpg
+date:   2020-05-04 7:00:00 -0400
 categories: blog
 ---
 
@@ -11,7 +11,7 @@ When you begin your engineering career, there's concepts you have to take for gr
 
 As your engineering abilities mature, you start to identify and question those assumptions.  It's always a fun experience when you realize you completely misunderstood something!  There's no better way to keep yourself humble.
 
-One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  Obviously its an acronym for the 'World Wide Web', but what's its technical significance?  I'd seen it everywhere my whole life prefixed on webpages, and had never stopped to consider what it *actually is*.
+One of those humbling moments happened to me recently when I realized I had no idea what "www" meant.  Obviously its an acronym for the 'World Wide Web', but what's its technical significance?  I've seen it everywhere my whole life prefixed on web URLs, and had never stopped to consider what it *actually is*.
 
 ![Various website URL's with the www portion highlighted surrounding a question mark](/assets/www-questions.jpg)
 
