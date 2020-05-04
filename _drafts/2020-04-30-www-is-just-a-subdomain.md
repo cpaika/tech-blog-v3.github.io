@@ -70,7 +70,7 @@ This is just a subdomain of paika.tech!
 
 So there we have it - `www` is a subdomain - nothing more.
 
-But if www is just a subdomain and has no technical purpose, why have I seen it my entire life?  Why does everyone use it in their webpages?
+But if www is just a subdomain and has no technical purpose, why have I seen it my entire life?  Why does everyone use it?
 
 ### Finding the source
 
@@ -84,7 +84,7 @@ So I searched more.  Finally, after almost giving up I found this gem on Wikiped
 
 The first web page was published by Tim Berners-Lee, the web's creator.  It was called the World Wide Web Project Page and was located at [info.cern.ch/hypertext/WWW/TheProject.html](info.cern.ch/hypertext/WWW/TheProject.html).  
 
-It seems [info.cern.ch](info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others and that was that.  From then on, it had a life of its own and continues being copied to this day.
+It seems [info.cern.ch](info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others, and that was that.  From then on it had a life of its own and continues being copied to this day.
 
 So go figure - `www`, which I've heard, read, and typed myself thousands of time isn't even a convention - its a copy and paste artifact!  
 
