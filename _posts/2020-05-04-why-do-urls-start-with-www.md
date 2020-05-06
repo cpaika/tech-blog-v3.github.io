@@ -82,9 +82,9 @@ So I searched more.  Finally, after almost giving up I found this gem on Wikiped
 
 > "...the World Wide Web project page was intended to be published at [www.cern.ch](http://www.cern.ch/) while [info.cern.ch](http://info.cern.ch/) was intended to be the CERN home page, however the DNS records were never switched, and the practice of prepending www to an institution's website domain name was subsequently copied"[^3]
 
-The first web page was published by Tim Berners-Lee, the web's creator.  It was called the World Wide Web Project Page and was located at [info.cern.ch/hypertext/WWW/TheProject.html](info.cern.ch/hypertext/WWW/TheProject.html).  
+The first web page was published by Tim Berners-Lee, the web's creator.  It was called the World Wide Web Project Page and was located at [info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html).  
 
-It seems that [info.cern.ch](info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others, and that was that.  From then on it had a life of its own and continues being copied to this day.
+It seems that [info.cern.ch](http://info.cern.ch) was intended to be the CERN homepage, while [www.cern.ch](http://www.cern.ch) would be the World Wide Web Project Page.  However, the CERN team never got around to switching the domains.  The next person to make a webpage must of assumed that since CERN's homepage was [www.cern.ch](http://www.cern.ch) that using `www` as a subdomain was the standard.  They copied the pattern, as did others, and that was that.  From then on it had a life of its own and continues being copied to this day.
 
 So go figure - `www`, which I've heard, read, and typed myself thousands of time isn't even a convention - its a copy and paste artifact!  
 
