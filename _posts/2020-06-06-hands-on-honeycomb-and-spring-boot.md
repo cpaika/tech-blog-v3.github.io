@@ -75,7 +75,7 @@ Well once you're finished ruining their carefully crafted css, we can click "Cre
 ![Setting up a Java dataset on the Honeycomb UI](/assets/honeycomb-demo/dataset-flow.png)
 
 
-The bring us over to a page with instructions for integrating with Java.  Particularly, they call out:
+They bring us over to a page with instructions for integrating with Java.  Particularly, they call out:
 >"The Java Beeline provides automatic instrumentation for Spring Boot v2"  
 
 Score!  That makes it easy.  Let's follow these instructions.
