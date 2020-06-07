@@ -90,7 +90,7 @@ Next, we need to add some properties to our Spring `application.properties` file
 
 ![Adding the Honeycomb properties to the application.properties file](/assets/honeycomb-demo/app-props.png)
 
-I did had to modify their properties slightly - they use a `:` in their properties file as a delimiter, which causes IntelliJ to complain about 'breaking code style convention'.    Switching them to `=` instead did the trick, as IntelliJ has default code styles it's enforcing.  According to the [Java Properties](https://docs.oracle.com/javase/7/docs/api/java/util/Properties.html#load%28java.io.Reader%29) documentation, either are perfectly valid deliminators.
+I did have to modify their properties slightly - they use a `:` in their properties file as a delimiter, which causes IntelliJ to complain about 'breaking code style convention'.    Switching them to `=` instead did the trick, as IntelliJ has default code styles it's enforcing.  According to the [Java Properties](https://docs.oracle.com/javase/7/docs/api/java/util/Properties.html#load%28java.io.Reader%29) documentation, either are perfectly valid deliminators.
 
 There were also some optional config I removed to make things simpler.  Hopefully I remember to delete that API key before commiting this to source control 🤞
 
