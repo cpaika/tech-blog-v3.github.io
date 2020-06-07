@@ -20,11 +20,10 @@ How I got into Latex Paragraph
 Latex Origins (and xkccd)
 Who would of thought, the Latex installation was hard
 How to do it:
-
+Read this: https://yakshav.es/the-patron-saint-of-yakshaves/
 ### Questions?
 LaTex vs Tex?
 
 ---
 The research for this post can be found on my [Roam Research](https://roamresearch.com/#/app/ChrisPaika/page/xR4Nd9fz2)
 
-Read this: https://yakshav.es/the-patron-saint-of-yakshaves/
