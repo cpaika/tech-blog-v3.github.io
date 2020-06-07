@@ -67,7 +67,7 @@ Honeycomb recently restructured their pricing tiers, and now offer a generous [f
 ![The Honeycomb home page](/assets/honeycomb-demo/honeycomb-ui.png)
 
 
-Upon setting up an account, you land on their above homepage.  For a free account, your stuck with a blue top bar prompting you to upgrade.  Hoever if it bothers you as much as it bothers me, you can use [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha/related?hl=en) to hide the element, so you don't have to see it.  Maybe it's things like this that makes it impossible for me to stay focused on one task...
+Upon setting up an account, you land on their above homepage.  For a free account, your stuck with a blue top bar prompting you to upgrade.  However if it bothers you as much as it bothers me, you can use [Stylebot](https://chrome.google.com/webstore/detail/stylebot/oiaejidbmkiecgbjeifoejpgmdaleoha/related?hl=en) to hide the element, so you don't have to see it.  Maybe it's things like this that makes it impossible for me to stay focused on one task...
 
 Well once you're finished ruining their carefully crafted css, we can click "Create a Dataset", and choose Java as the language.
 
