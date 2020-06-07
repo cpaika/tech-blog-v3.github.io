@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Hands on Monitoring a Spring Boot Application with Honeycomb 🐝"
-date:   2020-06-06 21:33:00 -0400
+date:   2020-06-06 22:10:00 -0400
 categories: blog
 ---
 
