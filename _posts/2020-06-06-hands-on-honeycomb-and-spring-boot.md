@@ -9,7 +9,7 @@ Application observability - knowing the behavior of your application, on a per u
 
 As my experience has been using New Relic to monitor Spring Boot applications, I'll do the same here. I'll walk through setting up a basic Spring Boot application, and instrumenting it with Honeycomb.  This review should be taken with a grain of salt, as it's not a formal evaluation.  I wrote this as I went, so it reflects my thoughts at the time.
 
-You can check out the source code [here](https://github.com/cpaika/honeycomb-demo])
+You can check out the source code [here](https://github.com/cpaika/honeycomb-demo)
 ### Starting an application
 First thing's first - we need something to monitor!  Let's use the gold standard for bootstrapping a Spring Boot application, [Spring Initializr](https://start.spring.io/)
 
