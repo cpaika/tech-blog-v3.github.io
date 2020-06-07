@@ -5,7 +5,7 @@ date:   2020-06-06 22:10:00 -0400
 categories: blog
 ---
 
-Application observability - knowing the behavior of your application, on a per user basis - is critical skill for any tech company.  At my current role I've been using New Relic to monitor our applications in production.  New Relic is great, however recently Honeycomb has broken onto the scene with a new observability platform.  Their CEO, Charity Majors, has been [leading the conversation](https://charity.wtf) around application observability for a while now so i wanted to give their platform a try. 
+Application observability - knowing the behavior of your application, on a per user basis - is a critical skill for any tech company.  At my current role I've been using New Relic to monitor our applications in production.  New Relic is great, however recently Honeycomb has broken onto the scene with a new observability platform.  Their CEO, Charity Majors, has been [leading the conversation](https://charity.wtf) around application observability for a while now so I wanted to give their platform a try. 
 
 As my experience has been using New Relic to monitor Spring Boot applications, I'll do the same here. I'll walk through setting up a basic Spring Boot application, and instrumenting it with Honeycomb.  This review should be taken with a grain of salt, as it's not a formal evaluation.  I wrote this as I went, so it reflects my thoughts at the time.
 
