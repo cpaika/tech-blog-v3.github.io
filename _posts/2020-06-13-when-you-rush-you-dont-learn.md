@@ -18,7 +18,7 @@ For example, I recently had to put together a script to select a key that matche
 
 Instead I did what programmers often do - I googled my question, "JQ select key from JSON array".  I scanned the top Stack Overflow response (not even reading the question of course!), copy and pasted & voila!  I had a working solution.  I verified it was what I wanted, added it to my PR, and moved on.  
 
-There's nothing wrong with using Stack Overflow like this, to grab a quick answer.  Sometime it would save your hours of research that you don't have.  However each time you do it, you lose an opportunity to spend your time learning and truly understanding something.  That research is some of the most valuable time in your career.  If you ever wonder how the people answering questions on Stack Overflow know so much, that's how.  Treating each problem as an opportunity to learn, rather than an obstacle to be cleared.
+There's nothing wrong with using Stack Overflow like this, to grab a quick answer.  Sometimes it would save you hours of research that you don't have.  However each time you do it, you lose an opportunity to spend your time learning and truly understanding something.  That research is some of the most valuable time in your career.  If you ever wonder how the people answering questions on Stack Overflow know so much, that's how.  Treating each problem as an opportunity to learn, rather than an obstacle to be cleared.
 
 Over the long arc of your career, your success doesn't come down to how quickly you can accomplish tickets.  It comes down to all that time you spent learning, and mastering the subject.
 
