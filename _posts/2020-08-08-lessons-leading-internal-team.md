@@ -34,7 +34,7 @@ This is completely different in an internal team.  Just like you probably won't 
 
 This isn't easy.  These roles are handled by seperate people for a reason - both roles are a full time job.  You have to be disciplined - be strict with your time, delegate as much as you can, and help your team be as autonomous as possible.  
 
-### Handling support for your tools
+### Handling support for your products
 While your organization probably has a dedicated support team, your internal team likely won't.  For every tool you offer to your customers, there's going to be questions and bugs.  Someone on the team will need to answer these questions, and that's going to take time away from engineering. 
 
 Everytime someone comes to your chat room asking a question or looking for help is an opportunity to make a good impression.  While the truth is that your customers are often locked in and required to use the tools your team provides, the less you rely on that fact the better.  Provide exemplary support.  Be known as friendly and supportive.  
@@ -44,7 +44,7 @@ There's a balance however - if you handhold engineers too much, they will learn 
 ### High empathy with your customer
 Being on an internal team is probably the closest you could ever get to a customer.  As you work for the same company, there's a basis level of understanding and trust.  Do everything you can to continually strengthen this trust.  A strong empathy and understanding of your customer is key to delivering an amazing product.  Take advantage of this strength.
 
-### Having customer facing engineers rotate on your team
+### Having customer facing engineers rotate onto the team
 My organization is lucky enough to have a formalized rotational process.  If your organization does - take advantage of it!  Having your customer join your team is an amazing opportunity - they already know which features are valuable to them and which aren't.  Getting them to temporarily join your internal team is a great way to bring in fresh ideas and make sure you are prioritizing the right things.
 
 However don't be selfish, rotations go both ways.  Supporting one of your team members as they rotate onto a customer facing team has the same value.  When they come back, they're going to bring great insight into what's important and what's not.
