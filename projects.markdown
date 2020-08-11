@@ -14,6 +14,9 @@ To start I picked up a (physical!) copy of the highly recommend ["The Go Program
 
 Currently I'm going through the exercises, chapter by chapter.  You can see my progress through the exercises [on my github repo](https://github.com/cpaika/the-go-programming-language)
 
+#### Calendar Calculator
+A golang utility that reads your google calendar and lets you know how many meetings you've had over different periods of time.
+[Check it out here](https://github.com/cpaika/calcalc)
 
 # Finished Projects 🌳
 #### Gravity Game
