@@ -4,6 +4,7 @@ title:  "The effects of quitting my meditation practice"
 description: "The changes I've noticed after stopping my meditation practice"
 date:   2020-09-12 18:50:00 -0400
 categories: blog
+tags: meditation habits
 ---
 
 In 2018 I began a new project and started working with a particularly difficult coworker.  A friend of mine even left the company because of them.  Once the dust settled and my friend had gotten a new job, we grabbed some lunch.  I asked him point blank how he kept his sanity working with that person.  His answer?  "Meditation."
