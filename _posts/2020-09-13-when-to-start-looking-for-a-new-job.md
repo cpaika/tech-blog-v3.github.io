@@ -5,6 +5,8 @@ description: "Common doubts when you are deciding to leave a company"
 date:   2020-09-13 15:05:00 -0400
 categories: blog
 tags: career acquisition quitting
+# Temporarily unpublishing until ready
+published: false
 ---
 
 I made a lot of mistakes at my first software job.  We all do, mistakes are a natural part of growing.  However where I particularly screwed up was how long I persisted and stayed at my organization.  I stayed for 5 years - that's a long time for your first job!   During those 5 years the company went through a lot: an acquisition, two rounds of layoffs, talented senior engineers fleeing the company, the organization being switched into '[harvest mode](https://davidcummings.org/2012/05/03/look-out-for-harvest-mode-saas-startups)', our CEO and GM being charged and fined by the SEC for fraud, a failed AWS migration, and another change of leadership.
