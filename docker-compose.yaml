@@ -3,10 +3,11 @@ services:
   jekyll:
     ports:
       - "4000:4000"
+      - "35729:35729"
     image: jekyll/jekyll
     volumes:
       - .:/jekyll
     environment:
       - JEKYLL_ENV=development
-    entrypoint: ["jekyll", "serve", "--drafts", "--future"]
+    entrypoint: ["jekyll", "serve", "--drafts", "--future", "--livereload"]
     working_dir: /jekyll
