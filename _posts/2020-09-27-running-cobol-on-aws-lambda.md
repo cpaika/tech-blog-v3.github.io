@@ -7,9 +7,9 @@ categories: blog
 tags: aws lambda cobol api-gateway serverless
 ---
 
-Today let's walk through the process of running COBOL code on AWS Lambda.  While it may seem strange, it's a great way to pull back the curtains and see how AWS Lambda works.  All the code in this walkthrough is available [here](https://github.com/cpaika/hello-world-cobol-lambda) on Github.
+Today let's walk through the process of running COBOL code on AWS Lambda.  While it may seem strange, it's a great way to pull back the curtains and see how Lambda functions work.  All the code in this walkthrough is available [here](https://github.com/cpaika/hello-world-cobol-lambda) on Github.
 
-COBOL stands for 'Common Business Oriented Language'.  It was designed in 1959, inspired by Grace Hopper's work on FLOW-MATIC and IBM's COMTRAN.  It was created primarily for business use cases and is focused on having an English like syntax.  
+COBOL stands for 'Common Business Oriented Language'.  It was designed in 1959, inspired by Grace Hopper's work on FLOW-MATIC and IBM's COMTRAN.  It was created for business use cases and is focused on having an English like syntax.  
 
 Even 60 years after its creation, COBOL is still heavily used in banking and government.  That's a huge success for a programming language!  In fact during the pandemic several states have been recruiting engineers experienced with COBOL to maintain their legacy unemployment systems dealing with the surge in traffic.  While it can be easy to ignore as it's not considered modern, COBOL remains an incredibly important programming language. 
 
