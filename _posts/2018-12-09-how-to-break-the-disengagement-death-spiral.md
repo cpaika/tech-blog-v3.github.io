@@ -15,7 +15,7 @@ Before I know it I found myself giving the same status every morning at standup 
 
 I believe that for many of us, this is a unfortunately familiar scenario.  Over the course of our careers everyone is likely to join a team where they don’t immediately fit in.  If nothing happens to improve the situation, it becomes harder and harder to find their place and before they know it, they begin to a negative feedback loop, getting more and more disengaged with their work and coworkers.
 
-The Disengagement Death Spiral
+### The Disengagement Death Spiral
 After sitting down to reflect on what happened to me, what’s clear is that disengagement, the act of withdrawing from a group, feeds on itself in a negative feedback loop.  This means without conscious intervention, the process will get worse and worse.
 
 ![](/assets/disengagement.jpg)
