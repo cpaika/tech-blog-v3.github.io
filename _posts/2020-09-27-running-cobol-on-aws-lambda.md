@@ -201,7 +201,7 @@ Particularly surprising to me was how easy creating a custom runtime is.  While 
 So - can you run a 60 year old programming language in a serverless environment? Yes!  Should you do this? Definetly not 😁 .  But it's a good way to learn.  Happy hacking!
 
 #### Resources:
-* [COBOL cownboys aim to rescue sluggish state unemployment systems](https://www.npr.org/2020/04/22/841682627/cobol-cowboys-aim-to-rescue-sluggish-state-unemployment-systems)
+* [COBOL cowboys aim to rescue sluggish state unemployment systems](https://www.npr.org/2020/04/22/841682627/cobol-cowboys-aim-to-rescue-sluggish-state-unemployment-systems)
 * [The Wikipedia entry for COBOL](https://en.wikipedia.org/wiki/COBOL)
 * [Guide to installing GnuCOBOL on Mac OS X](http://www.globalnerdy.com/2020/04/15/a-quick-and-dirty-guide-to-installing-a-cobol-compiler-and-ide-on-macos-and-get-a-cobol-book-at-a-discount/comment-page-1/)
 * [AWS custom runtime announcement](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
