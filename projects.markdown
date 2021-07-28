@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+# TODO fix the posts word count that was removed from the Writing section
 ---
 
 # Current Projects 🌱
