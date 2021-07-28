@@ -6,7 +6,7 @@ permalink: /projects/
 
 # Current Projects 🌱
 #### Writing
-My current stretch goal is to hit 50,000 words published on this blog in 2021.  I'm currently at {% posts_word_count total %} words total.
+My current stretch goal is to hit 50,000 words published on this blog in 2021.
 
 #### Learning Golang
 To stay up to date with the industry and contribute in the [Cloud Native Foundation](https://www.cncf.io/) open source ecosystem, I've started to learn the Go programming language.
