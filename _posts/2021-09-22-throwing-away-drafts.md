@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Throwing away drafts"
-description: ""
+description: "Learning how to put things that aren't working aside"
 date:   2021-09-22 20:56:00 -0400
 categories: blog
 tags: writing
