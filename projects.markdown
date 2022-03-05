@@ -11,7 +11,8 @@ I've always enjoyed blogging here, as well as writing on twitter.  I'm slowly wo
 
 # Abandoned Projects 🧟
 #### Learning Golang
-*Status: On pause, but will resume if I move to contribute to Golang work at Tesla*
+*Status: No reason to learn Golang - I'm learning Scala for work!*
+
 To stay up to date with the industry and contribute in the [Cloud Native Foundation](https://www.cncf.io/) open source ecosystem, I've started to learn the Go programming language.
 To start I picked up a (physical!) copy of the highly recommend ["The Go Programming Language"](https://www.amazon.com/Programming-Language-Addison-Wesley-Professional-Computing/dp/0134190440)
 
@@ -22,6 +23,7 @@ Currently I'm going through the exercises, chapter by chapter.  You can see my p
 
 #### Calendar Calculator
 *Status: Would love to come back to this someday!*
+
 A golang utility that reads your google calendar and lets you know how many meetings you've had over different periods of time.
 [Check it out here](https://github.com/cpaika/calcalc)
 
