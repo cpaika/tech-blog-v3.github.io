@@ -34,6 +34,7 @@ He then has a higher level chapter, arguing the essense of programming is both d
 #### Challenges
 1.  Implement an identity function in your favorite language:
 Well this is a bit unfair since the book has Scala examples:
+
 ```scala
 def identity[A](a: A): A => a
 
@@ -41,8 +42,9 @@ val hello = identity[String]("Hello")
 println(hello) // "Hello"
 ```
 
-2. Implement the composition function in your favorite language:
+2. Implement the composition function in your favorite language
 Well this is totally cheating:
+
 ```scala
 def f(s: String): String = { 
   s + "f"  
@@ -59,6 +61,7 @@ println(gComposeF("e")) // "efg"
 There's no way around it, that syntax is clunky.  Not sure the significance of the underscores yet.
 
 3. Write a program that tries to test your composition function respects identity:
+
 ```scala
 val sameFunction = f _ compose identity[String] _ 
 println(sameFunction("e")) // "ef"
