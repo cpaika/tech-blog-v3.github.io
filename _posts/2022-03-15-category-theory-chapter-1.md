@@ -32,7 +32,7 @@ The author's claim is that the identity function is comparable to 0, and useful 
 He then has a higher level chapter, arguing the essense of programming is both decomposing large problems into smaller ones, and then composing them back together.  He argues the need for decomposition into small pieces is because our brain can only handle so much in our working memory, which does make intuitive sense.
 
 #### Challenges
-1.  Implement an identity function in your favorite language:
+##### Implement an identity function in your favorite language:
 Well this is a bit unfair since the book has Scala examples:
 
 ```scala
@@ -42,7 +42,7 @@ val hello = identity[String]("Hello")
 println(hello) // "Hello"
 ```
 
-2. Implement the composition function in your favorite language
+##### Implement the composition function in your favorite language
 Well this is totally cheating:
 
 ```scala
@@ -60,7 +60,7 @@ println(gComposeF("e")) // "efg"
 
 There's no way around it, that syntax is clunky.  Not sure the significance of the underscores yet.
 
-3. Write a program that tries to test your composition function respects identity:
+##### Write a program that tries to test your composition function respects identity:
 
 ```scala
 val sameFunction = f _ compose identity[String] _ 
@@ -68,11 +68,11 @@ println(sameFunction("e")) // "ef"
 println(f("e")) // "ef"
 ```
 
-4. Is the world wide web a category in some sense? Are links morphisms?
+##### Is the world wide web a category in some sense? Are links morphisms?
 This is the definition of a leading question lol.  I know I'm supposed to say "yes" but I really don't see it.  Webpages are individual things, not a type.  Links don't convert you from one type to another, they just return a new webpage regardless of the origin. I don't believe this analogy stands, but I'm early on so maybe this will become clearer over time.
 
-5. Is facebook a category, with people as objects and friendships as morphisms?
+##### Is facebook a category, with people as objects and friendships as morphisms?
 Again, this just seems like a directed graph.  I'm struggling to understand how it's a category.
 
-6. When is a directed graph a category?
+##### When is a directed graph a category?
 This is just too heavy on the math theory for me right now, I look forward to an explanation in the book!
