@@ -9,6 +9,9 @@ permalink: /projects/
 #### Writing
 I've always enjoyed blogging here, as well as writing on twitter.  I'm slowly working on a personal book, about myself for an audience of one.
 
+#### Learning Scala
+I'm currently working through Category Theory For Programmers by Bartosz Milewski.  So far it's a great book and I believe it will really increase my ability to write good functional Scala.
+
 # Abandoned Projects 🧟
 #### Learning Golang
 *Status: No reason to learn Golang - I'm learning Scala for work!*
