@@ -10,7 +10,11 @@ permalink: /projects/
 I've always enjoyed blogging here, as well as writing on twitter.  I'm slowly working on a personal book, about myself for an audience of one.
 
 #### Learning Scala
-I'm currently working through Category Theory For Programmers by Bartosz Milewski.  So far it's a great book and I believe it will really increase my ability to write good functional Scala.
+I'm currently working through two books on Scala and Functional Programming:
+
+The first is Category Theory For Programmers by Bartosz Milewski.  So far it's a great book and I believe it will really increase my ability to write good functional Scala.
+
+The other is Functional Programming Simplified, by Alvin Alexander.  It's a lot more basic than the book on Category theory, so is great to help me master the fundamentals while I can really stretch my abilities with the book on Category Theory.
 
 # Abandoned Projects 🧟
 #### Learning Golang
