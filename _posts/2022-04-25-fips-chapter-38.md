@@ -2,7 +2,7 @@
 layout: post
 title:  "FPS: Chapter 38 - 39"
 description: "Tail Recursive Algorithms"
-date:   2022-04-21 10:00:00 -0400
+date:   2022-04-25 10:00:00 -0400
 categories: blog
 tags: functional-programming-simplified
 ---
