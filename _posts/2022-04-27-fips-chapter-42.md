@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FPS: Chapter 42”
+title:  "FPS: Chapter 42"
 description: “Updating state as you copy”
 date:   2022-04-27 10:00:00 -0400
 categories: blog

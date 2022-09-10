@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FPS: Chapter 47”
+title:  "FPS: Chapter 47"
 description: “Making Sequence class work in a for comprehension”
 date:   2022-05-02 10:00:00 -0400
 categories: blog

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "FPS: Chapter 45”
+title:  "FPS: Chapter 45"
 description: “Creating a class for for comprehensions”
 date:   2022-04-29 10:00:00 -0400
 categories: blog

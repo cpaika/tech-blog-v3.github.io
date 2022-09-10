@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A response to \"Eating too many frogs\"”
+title:  "A response to \"Eating too many frogs\""
 description: “My thoughts on work, struggle, and happiness”
 date:   2022-09-10 12:27:00 -0400
 categories: blog
