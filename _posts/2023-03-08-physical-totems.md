@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Physical Totems"
-description: “How to remember the digital world exists" 
+description: "How to remember the digital world exists" 
 date:   2023-03-08 21:27:00 -0400
 categories: blog
 tags: productivity
