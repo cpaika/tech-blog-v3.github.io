@@ -36,3 +36,5 @@ echo "$FRONT_MATTER" > "$FILE_PATH"
 
 # Notify the user of success
 echo "Created new Jekyll post: $FILE_PATH"
+
+subl . ./_posts/"$FILE_PATH"

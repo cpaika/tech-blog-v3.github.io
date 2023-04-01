@@ -1,7 +1,11 @@
-### paika.tech Blog
+###paika.tech Blog
 This is the repository for [paika.tech](https://paika.tech).  It's a static site, using [Jekyll](https://jekyllrb.com/) and hosted on Github Pages.
 
-### Local Development
+## Local Development
+### Local Development with Jekyll CLI and Ruby
+1. `bundle exec jekyll serve`
+
+### Local Development with Docker
 To avoid Ruby toolchain issues, I've wrapped Jekyll in a docker-compose file for local development:
 1.  Install docker-compose.  On Mac or Linux, you can use [Homebrew](https://brew.sh/):
 ```bash
@@ -12,3 +16,5 @@ brew install docker
 
 Live reload is enabled, as you edit files your browser will reload the changes.
 
+## Updating Dependencies
+1. Run `bundle update`
