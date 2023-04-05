@@ -2,9 +2,9 @@
 layout: post
 title: "Exploring the Kafka codebase with GPT"
 date: 2023-04-03 19:51:42
-description: Description
+description: Using GPT to explore a codebase
 categories: blog
-tags: add,tags
+tags: llm
 ---
 
 I recently had to dig into the [Apache Kafka codebase](https://github.com/apache/kafka) to try to figure out how it allocates topic partitions across log directories on a broker with multiple log directories.  I had observed that Kafka allocates partitions evenly across brokers, but failed to allocate partitions evenly within a single broker.
