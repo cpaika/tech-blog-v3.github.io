@@ -15,6 +15,6 @@ Overall the workshop went well - always difficult installing a ruby toolchain fo
 
 We we're able to finish in about 2 hours flat, which was pretty good.  Check their websites out, hopefully they'll have their first post by the time you do:
 
-Chris Burchat: ![](https://chrisburchat.com)
+[Ethan Ansell Kellys Website](https://ethananselkelly.com)
 
-Ethan Ansell Kelly: ![](https://ethananselkelly.com)
+[Chris Burchat Website](https://chrisburchat.com)
