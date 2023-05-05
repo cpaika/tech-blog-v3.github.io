@@ -2,7 +2,7 @@
 layout: post
 title: "Giving a Make a Personal Website workshop"
 date: 2023-05-04 22:01:29
-description: Description
+description: Giving a workshop on creating a Jekyll personal site
 categories: blog
 tags: workshops
 ---
