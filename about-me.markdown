@@ -10,11 +10,10 @@ For personal interests, these are the categories of things that I find value in 
 * Family
 * Meditation
 * Reading (of course!)
-* Rationalism and the LessWrong community
-* Cryptocurrency
+* Post-Rationalism
 * Nutrition
 * Exercise
-* Water - boating, SCUBA, any water sport really
+* Water
 * Investing
 
 My email address is paika.christopher@gmail.com. I'm always happy to get email and meet knew people - see my [Standing Invitation](/standing-invitation/)
