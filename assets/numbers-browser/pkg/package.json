@@ -1,0 +1,15 @@
+{
+  "name": "numbers-browser",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "numbers_browser_bg.wasm",
+    "numbers_browser.js",
+    "numbers_browser.d.ts"
+  ],
+  "main": "numbers_browser.js",
+  "types": "numbers_browser.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
