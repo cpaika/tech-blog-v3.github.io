@@ -35,5 +35,8 @@ A golang utility that reads your google calendar and lets you know how many meet
 [Check it out here](https://github.com/cpaika/calcalc)
 
 # Finished Projects 🌳
+#### MNIST Neural Network Visualizer
+A WebAssembly-powered interactive visualization of a neural network learning to recognize handwritten digits. Built with Rust and WebGPU for high-performance training in the browser. [Click here to try it out](/assets/mnist-visualizer/index.html)
+
 #### Gravity Game
 A little game I used to try out webpack. Add planets to the field and watch them all interact with each other gravitationally. [Click here to try it out](https://cpaika.github.io/gravity-game/)

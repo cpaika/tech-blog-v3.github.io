@@ -1,0 +1,15 @@
+{
+  "name": "neural-viz",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "neural_viz_bg.wasm",
+    "neural_viz.js",
+    "neural_viz.d.ts"
+  ],
+  "main": "neural_viz.js",
+  "types": "neural_viz.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
