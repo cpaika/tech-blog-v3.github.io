@@ -1,0 +1,16 @@
+{
+  "name": "lm-viz",
+  "type": "module",
+  "description": "Language model training visualization with WASM support",
+  "version": "0.1.0",
+  "files": [
+    "lm_viz_bg.wasm",
+    "lm_viz.js",
+    "lm_viz.d.ts"
+  ],
+  "main": "lm_viz.js",
+  "types": "lm_viz.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

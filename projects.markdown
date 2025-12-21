@@ -38,5 +38,10 @@ A golang utility that reads your google calendar and lets you know how many meet
 #### MNIST Neural Network Visualizer
 A WebAssembly-powered interactive visualization of a neural network learning to recognize handwritten digits. Built with Rust and WebGPU for high-performance training in the browser. [Click here to try it out](/assets/mnist-visualizer/index.html)
 
+#### WASM LLM Training Visualizer
+Train a small language model, in the browser from scratch! [Click here to try it out](/assets/lm-visualizer/index.html).
+
+Built on top of the MNIST trainer above.
+
 #### Gravity Game
 A little game I used to try out webpack. Add planets to the field and watch them all interact with each other gravitationally. [Click here to try it out](https://cpaika.github.io/gravity-game/)

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Model Trainer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+            background-color: #0a0a0f;
+            color: #e0e6ed;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin: 20px 0;
+            color: #4ecdc4;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6b7280;
+        }
+        .error {
+            color: #ff6b6b;
+            padding: 20px;
+            background: #1a1a2e;
+            border-radius: 8px;
+            margin: 20px;
+        }
+        #app-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app-container">
+        <div id="loading" class="loading">
+            <h2>Loading Language Model Trainer...</h2>
+            <p>Initializing WASM module...</p>
+        </div>
+    </div>
+
+    <script type="module">
+        import init from './pkg/lm_viz.js';
+
+        async function run() {
+            const loadingEl = document.getElementById('loading');
+            try {
+                loadingEl.innerHTML = '<h2>Loading Language Model Trainer...</h2><p>Compiling WASM...</p>';
+
+                await init();
+
+                // The start() function is called automatically by wasm-bindgen
+                // Remove loading message
+                loadingEl.style.display = 'none';
+
+            } catch (error) {
+                console.error('Failed to initialize WASM:', error);
+                loadingEl.innerHTML = `
+                    <div class="error">
+                        <h2>Error Loading Application</h2>
+                        <p>${error.message}</p>
+                        <p>Make sure you're running this from a web server.</p>
+                    </div>
+                `;
+            }
+        }
+
+        run();
+    </script>
+</body>
+</html>
