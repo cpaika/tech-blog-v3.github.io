@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
+
+<!-- Mermaid diagram support -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  mermaid.initialize({ startOnLoad: false, theme: "default" });
+
+  // Try multiple selectors for different Jekyll configurations
+  const selectors = [
+    'pre code.language-mermaid',
+    'div.language-mermaid pre code',
+    'div.highlighter-rouge.language-mermaid pre code',
+    '.language-mermaid code',
+    'code.language-mermaid'
+  ];
+
+  selectors.forEach(function(selector) {
+    document.querySelectorAll(selector).forEach(function (codeBlock) {
+      const container = codeBlock.closest('div.highlighter-rouge') || codeBlock.closest('pre');
+      if (container) {
+        const mermaidDiv = document.createElement("div");
+        mermaidDiv.className = "mermaid";
+        mermaidDiv.textContent = codeBlock.textContent;
+        container.parentElement.replaceChild(mermaidDiv, container);
+      }
+    });
+  });
+
+  mermaid.run();
+</script>
