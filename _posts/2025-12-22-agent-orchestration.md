@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multi-Agent Orchestration"
-date: 2025-10-23 22:45:00
+date: 2025-12-23 22:45:00
 categories: blog
 tags: machine-learning
 ---
