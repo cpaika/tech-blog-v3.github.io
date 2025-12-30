@@ -1,0 +1,9 @@
+[package]
+name = "paika"
+version = "0.1.0"
+edition = "2021"
+description = "CLI utilities for Chris Paika's Jekyll blog"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+chrono = "0.4"
