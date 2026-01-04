@@ -9,6 +9,9 @@ permalink: /projects/
 #### MNIST Neural Network Visualizer (2025)
 A WebAssembly-powered interactive visualization of a neural network learning to recognize handwritten digits. Built with Rust and WebGPU for high-performance training in the browser. [Click here to try it out](/assets/mnist-visualizer/index.html)
 
+#### Presidential AI Mentions Timeline (2025)
+An interactive timeline tracking when U.S. Presidents discuss artificial intelligence. Built in Rust and running on AWS - scrapers listen to an SQS queue of URLs and download media from various sources, stores the videos in S3 which triggers a transcriber that runs them through Whisper, and stores the transcripts back in S3. A query engine then processes transcripts to create a visualization of when a president mentioned AI and graphs it. [Click here to try it out](/assets/presidential-ai/index.html)
+
 #### WASM LLM Training Visualizer (2025)
 Train a small language model, in the browser from scratch! [Click here to try it out](/assets/lm-visualizer/index.html).
 
@@ -47,5 +50,4 @@ Currently I'm going through the exercises, chapter by chapter.  You can see my p
 
 A golang utility that reads your google calendar and lets you know how many meetings you've had over different periods of time.
 [Check it out here](https://github.com/cpaika/calcalc)
-
 

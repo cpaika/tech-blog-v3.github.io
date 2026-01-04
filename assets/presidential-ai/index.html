@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidential AI Mentions Timeline</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #00d4ff, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 20px;
+            margin: 20px 0;
+            background: rgba(255,255,255,0.05);
+            border-radius: 12px;
+        }
+
+        .stat {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #00d4ff;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .chart-container {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        #timeline-chart {
+            width: 100%;
+            height: 400px;
+        }
+
+        .tooltip-container {
+            position: fixed;
+            background: #1e1e2e;
+            border: 1px solid #333;
+            border-radius: 12px;
+            padding: 15px;
+            max-width: 450px;
+            max-height: 400px;
+            overflow-y: auto;
+            z-index: 1000;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            display: none;
+        }
+
+        .tooltip-container.visible {
+            display: block;
+        }
+
+        .tooltip-header {
+            font-weight: bold;
+            color: #00d4ff;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .mention-item {
+            padding: 12px;
+            margin: 8px 0;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            border-left: 3px solid #7c3aed;
+        }
+
+        .mention-title {
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+        }
+
+        .mention-context {
+            color: #aaa;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            margin: 8px 0;
+        }
+
+        .mention-context mark {
+            background: rgba(124, 58, 237, 0.3);
+            color: #c4b5fd;
+            padding: 1px 4px;
+            border-radius: 3px;
+        }
+
+        .mention-link {
+            display: inline-block;
+            color: #00d4ff;
+            text-decoration: none;
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+
+        .mention-link:hover {
+            text-decoration: underline;
+        }
+
+        .mention-meta {
+            font-size: 0.75rem;
+            color: #666;
+            margin-top: 5px;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 4px;
+        }
+
+        .milestone-legend {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 10px 0;
+            flex-wrap: wrap;
+            font-size: 0.85rem;
+            color: #888;
+        }
+
+        .milestone-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .milestone-line {
+            width: 20px;
+            height: 2px;
+            background: #ff6b6b;
+        }
+
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: #e0e0e0;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .filter-btn:hover {
+            background: rgba(255,255,255,0.15);
+        }
+
+        .filter-btn.active {
+            background: #7c3aed;
+            border-color: #7c3aed;
+        }
+
+        .mentions-list {
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            padding: 30px;
+            margin: 20px 0;
+        }
+
+        .mentions-list h2 {
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .mentions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #00d4ff;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            .stats-bar {
+                flex-direction: column;
+                gap: 20px;
+            }
+            .chart-container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Presidential AI Mentions</h1>
+            <p class="subtitle">Tracking when U.S. Presidents discuss Artificial Intelligence</p>
+        </header>
+
+        <div class="stats-bar" id="stats-bar">
+            <div class="stat">
+                <div class="stat-value" id="total-mentions">--</div>
+                <div class="stat-label">Total AI Mentions</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="total-transcripts">--</div>
+                <div class="stat-label">Transcripts Analyzed</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="date-range">--</div>
+                <div class="stat-label">Date Range</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All Presidents</button>
+            <button class="filter-btn" data-filter="trump">Trump</button>
+            <button class="filter-btn" data-filter="biden">Biden</button>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="timeline-chart"></canvas>
+        </div>
+
+
+        <div class="mentions-list">
+            <h2>Recent AI Mentions</h2>
+            <div class="mentions-grid" id="mentions-grid">
+                <div class="loading">Loading mentions...</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Data sourced from C-SPAN, Internet Archive, and other public archives.</p>
+            <p>Generated on <span id="generated-date">--</span></p>
+        </footer>
+    </div>
+
+    <div class="tooltip-container" id="tooltip"></div>
+
+    <script>
+        let chart = null;
+        let allData = null;
+        let currentFilter = 'all';
+
+        // Color scheme
+        const colors = {
+            trump: '#e63946',
+            biden: '#457b9d',
+            obama: '#2a9d8f',
+            bush: '#f4a261',
+            unknown: '#888888'
+        };
+
+        async function loadData() {
+            try {
+                const response = await fetch('ai_mentions_data.json');
+                allData = await response.json();
+                initializeUI();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('mentions-grid').innerHTML =
+                    '<p>Error loading data. Make sure ai_mentions_data.json is in the same directory.</p>';
+            }
+        }
+
+        function initializeUI() {
+            // Update stats
+            document.getElementById('total-mentions').textContent = allData.total_mentions;
+            document.getElementById('total-transcripts').textContent = allData.total_transcripts.toLocaleString();
+            document.getElementById('generated-date').textContent = new Date(allData.generated_at).toLocaleDateString();
+
+            // Calculate date range
+            const weeks = Object.keys(allData.weekly_data);
+            if (weeks.length > 0) {
+                const firstWeek = new Date(weeks[0]);
+                const lastWeek = new Date(weeks[weeks.length - 1]);
+                document.getElementById('date-range').textContent =
+                    `${firstWeek.getFullYear()} - ${lastWeek.getFullYear()}`;
+            }
+
+            // Set up filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentFilter = btn.dataset.filter;
+                    updateChart();
+                    updateMentionsList();
+                });
+            });
+
+            // Create chart
+            createChart();
+            updateMentionsList();
+        }
+
+        function filterMentions(mentions) {
+            if (currentFilter === 'all') return mentions;
+            return mentions.filter(m => m.president === currentFilter);
+        }
+
+        // Apply weighted moving average smoothing
+        function smoothData(dataPoints, windowSize = 2) {
+            if (dataPoints.length < windowSize) return dataPoints;
+
+            const smoothed = [];
+            for (let i = 0; i < dataPoints.length; i++) {
+                let sum = 0;
+                let weightSum = 0;
+
+                for (let j = Math.max(0, i - windowSize + 1); j <= i; j++) {
+                    const weight = j - (i - windowSize); // More recent = higher weight
+                    sum += dataPoints[j].y * weight;
+                    weightSum += weight;
+                }
+
+                smoothed.push({
+                    ...dataPoints[i],
+                    y: sum / weightSum,
+                    originalY: dataPoints[i].y
+                });
+            }
+            return smoothed;
+        }
+
+        function createChart() {
+            const ctx = document.getElementById('timeline-chart').getContext('2d');
+
+            // Prepare data points (include weeks with 0 mentions for continuous line)
+            const rawDataPoints = [];
+            const allWeeks = Object.keys(allData.weekly_data).sort();
+
+            allWeeks.forEach(week => {
+                const data = allData.weekly_data[week];
+                const filteredMentions = filterMentions(data.mentions);
+                rawDataPoints.push({
+                    x: new Date(week),
+                    y: filteredMentions.length,
+                    mentions: filteredMentions,
+                    week: week
+                });
+            });
+
+            // Apply smoothing
+            const dataPoints = smoothData(rawDataPoints, 2);
+
+            // Key milestones
+            const keyMilestones = [
+                { date: "2023-10-30", label: "Biden AI EO" },
+            ];
+
+            // Use data range for chart bounds
+            const weeks = Object.keys(allData.weekly_data).map(w => new Date(w));
+            const chartMinDate = new Date(Math.min(...weeks));
+            const chartMaxDate = new Date(Math.max(...weeks));
+
+            // Prepare milestone annotations (subtle style)
+            const annotations = {};
+            keyMilestones.forEach((milestone, idx) => {
+                const milestoneDate = new Date(milestone.date);
+
+                if (milestoneDate >= chartMinDate && milestoneDate <= chartMaxDate) {
+                    annotations[`milestone${idx}`] = {
+                        type: 'line',
+                        xMin: milestone.date,
+                        xMax: milestone.date,
+                        borderColor: 'rgba(255, 255, 255, 0.25)',
+                        borderWidth: 1,
+                        borderDash: [4, 4],
+                        label: {
+                            display: true,
+                            content: milestone.label,
+                            position: 'start',
+                            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+                            color: 'rgba(255, 255, 255, 0.6)',
+                            font: { size: 9 },
+                            padding: 3,
+                            rotation: -90,
+                            yAdjust: -50
+                        }
+                    };
+                }
+            });
+
+            chart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: 'AI Mentions',
+                        data: dataPoints,
+                        borderColor: '#7c3aed',
+                        backgroundColor: 'rgba(124, 58, 237, 0.1)',
+                        borderWidth: 2,
+                        fill: true,
+                        tension: 0.15,
+                        pointRadius: 3,
+                        pointBackgroundColor: '#7c3aed',
+                        pointBorderColor: '#7c3aed',
+                        pointHoverRadius: 7,
+                        pointHoverBackgroundColor: '#7c3aed',
+                        pointHoverBorderColor: '#fff',
+                        pointHoverBorderWidth: 2,
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'nearest',
+                        axis: 'x'
+                    },
+                    scales: {
+                        x: {
+                            type: 'time',
+                            min: chartMinDate,
+                            max: chartMaxDate,
+                            time: {
+                                unit: 'month',
+                                displayFormats: {
+                                    month: 'MMM yyyy'
+                                }
+                            },
+                            grid: {
+                                color: 'rgba(255,255,255,0.1)'
+                            },
+                            ticks: {
+                                color: '#888'
+                            }
+                        },
+                        y: {
+                            beginAtZero: true,
+                            grid: {
+                                color: 'rgba(255,255,255,0.1)'
+                            },
+                            ticks: {
+                                color: '#888',
+                                stepSize: 1
+                            },
+                            title: {
+                                display: true,
+                                text: 'Mentions per Week',
+                                color: '#888'
+                            }
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            enabled: false,
+                            external: function(context) {
+                                const tooltip = document.getElementById('tooltip');
+
+                                if (context.tooltip.opacity === 0) {
+                                    tooltip.classList.remove('visible');
+                                    return;
+                                }
+
+                                const dataPoint = context.tooltip.dataPoints?.[0];
+                                if (!dataPoint) return;
+
+                                const raw = dataPoint.raw;
+                                const weekDate = new Date(raw.week);
+                                const weekEnd = new Date(weekDate);
+                                weekEnd.setDate(weekEnd.getDate() + 6);
+
+                                const actualCount = raw.originalY !== undefined ? raw.originalY : raw.mentions.length;
+                                let html = `
+                                    <div class="tooltip-header">
+                                        Week of ${weekDate.toLocaleDateString()} - ${weekEnd.toLocaleDateString()}
+                                        <br><small>${actualCount} mention${actualCount !== 1 ? 's' : ''}</small>
+                                    </div>
+                                `;
+
+                                raw.mentions.slice(0, 5).forEach(mention => {
+                                    const highlightedContext = mention.context.replace(
+                                        new RegExp(`(${mention.matched_text})`, 'gi'),
+                                        '<mark>$1</mark>'
+                                    );
+                                    html += `
+                                        <div class="mention-item">
+                                            <div class="mention-title">${escapeHtml(mention.title)}</div>
+                                            <div class="mention-context">${highlightedContext}</div>
+                                            ${mention.source_url ?
+                                                `<a href="${mention.source_url}" target="_blank" class="mention-link">View Source &rarr;</a>` : ''}
+                                            <div class="mention-meta">${mention.date} | ${mention.president || 'Unknown'}</div>
+                                        </div>
+                                    `;
+                                });
+
+                                if (raw.mentions.length > 5) {
+                                    html += `<p style="text-align:center;color:#666;margin-top:10px;">
+                                        +${raw.mentions.length - 5} more mentions
+                                    </p>`;
+                                }
+
+                                tooltip.innerHTML = html;
+                                tooltip.classList.add('visible');
+
+                                // Position tooltip
+                                const chartRect = context.chart.canvas.getBoundingClientRect();
+                                let left = chartRect.left + context.tooltip.caretX + 10;
+                                let top = chartRect.top + context.tooltip.caretY;
+
+                                // Keep tooltip in viewport
+                                if (left + 450 > window.innerWidth) {
+                                    left = context.tooltip.caretX - 460;
+                                }
+                                if (top + 400 > window.innerHeight) {
+                                    top = window.innerHeight - 410;
+                                }
+
+                                tooltip.style.left = left + 'px';
+                                tooltip.style.top = top + 'px';
+                            }
+                        },
+                        annotation: {
+                            annotations: annotations
+                        }
+                    }
+                }
+            });
+
+            // Hide tooltip when mouse leaves chart
+            document.getElementById('timeline-chart').addEventListener('mouseleave', () => {
+                document.getElementById('tooltip').classList.remove('visible');
+            });
+        }
+
+        function updateChart() {
+            if (!chart || !allData) return;
+
+            const rawDataPoints = [];
+            const allWeeks = Object.keys(allData.weekly_data).sort();
+
+            allWeeks.forEach(week => {
+                const data = allData.weekly_data[week];
+                const filteredMentions = filterMentions(data.mentions);
+                rawDataPoints.push({
+                    x: new Date(week),
+                    y: filteredMentions.length,
+                    mentions: filteredMentions,
+                    week: week
+                });
+            });
+
+            const dataPoints = smoothData(rawDataPoints, 2);
+            chart.data.datasets[0].data = dataPoints;
+            chart.update();
+        }
+
+        function updateMentionsList() {
+            const grid = document.getElementById('mentions-grid');
+
+            // Collect all mentions and sort by date
+            let allMentions = [];
+            Object.values(allData.weekly_data).forEach(week => {
+                allMentions = allMentions.concat(filterMentions(week.mentions));
+            });
+
+            // Sort by date descending
+            allMentions.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+            // Show top 20
+            const displayMentions = allMentions.slice(0, 20);
+
+            if (displayMentions.length === 0) {
+                grid.innerHTML = '<p>No mentions found for selected filter.</p>';
+                return;
+            }
+
+            grid.innerHTML = displayMentions.map(mention => {
+                const highlightedContext = mention.context.replace(
+                    new RegExp(`(${mention.matched_text})`, 'gi'),
+                    '<mark>$1</mark>'
+                );
+                return `
+                    <div class="mention-item">
+                        <div class="mention-title">${escapeHtml(mention.title)}</div>
+                        <div class="mention-context">${highlightedContext}</div>
+                        ${mention.source_url ?
+                            `<a href="${mention.source_url}" target="_blank" class="mention-link">View Source &rarr;</a>` : ''}
+                        <div class="mention-meta">${mention.date} | ${mention.president || 'Unknown'}</div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Initialize
+        loadData();
+    </script>
+</body>
+</html>

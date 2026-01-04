@@ -1,0 +1,3913 @@
+{
+  "generated_at": "2026-01-04T15:31:01.389026",
+  "total_mentions": 473,
+  "total_transcripts": 17348,
+  "weeks_with_mentions": 15,
+  "milestones": [
+    {
+      "date": "2022-11-30",
+      "label": "ChatGPT Released",
+      "description": "OpenAI releases ChatGPT"
+    },
+    {
+      "date": "2023-03-14",
+      "label": "GPT-4 Released",
+      "description": "OpenAI releases GPT-4"
+    },
+    {
+      "date": "2023-02-06",
+      "label": "Bing Chat Launch",
+      "description": "Microsoft launches AI-powered Bing"
+    },
+    {
+      "date": "2023-03-21",
+      "label": "Google Bard",
+      "description": "Google launches Bard AI"
+    },
+    {
+      "date": "2024-02-15",
+      "label": "Sora Announced",
+      "description": "OpenAI announces Sora video AI"
+    },
+    {
+      "date": "2017-01-01",
+      "label": "AI Executive Order",
+      "description": "Early AI policy discussions"
+    },
+    {
+      "date": "2019-02-11",
+      "label": "AI Initiative EO",
+      "description": "Trump signs American AI Initiative"
+    },
+    {
+      "date": "2023-10-30",
+      "label": "Biden AI EO",
+      "description": "Biden signs AI Executive Order"
+    }
+  ],
+  "weekly_data": {
+    "2023-04-24": {
+      "count": 5,
+      "mentions": [
+        {
+          "title": "WATCH LIVE: White House holds news briefing as Biden announces reelection bid",
+          "context": "...AI-generated...",
+          "source_url": "https://www.youtube.com/watch?v=-dAy-yFR29c&t=1916",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-04-25"
+        },
+        {
+          "title": "WATCH LIVE: White House holds news briefing as Biden announces reelection bid",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=-dAy-yFR29c&t=1925",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-04-25"
+        },
+        {
+          "title": "WATCH LIVE: White House holds news briefing as Biden announces reelection bid",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=-dAy-yFR29c&t=1939",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-04-25"
+        },
+        {
+          "title": "WATCH LIVE: White House holds news briefing as Biden announces reelection bid",
+          "context": "...AI-related...",
+          "source_url": "https://www.youtube.com/watch?v=-dAy-yFR29c&t=1943",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-04-25"
+        },
+        {
+          "title": "WATCH LIVE: White House holds news briefing as Biden announces reelection bid",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=-dAy-yFR29c&t=1960",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-04-25"
+        }
+      ]
+    },
+    "2023-06-19": {
+      "count": 27,
+      "mentions": [
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "associated with artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "associated with artificial intelligence. In May, Kamala and I convened the CEOs of American companies foremost involved in AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=3",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI's...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=30",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=49",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=56",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=65",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=87",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=100",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=100",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=109",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=116",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH LIVE: Biden delivers remarks on artificial intelligence's risks and new opportunities",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=ZeZ76LQOiNY&t=160",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "Last October, we proposed an AI...",
+          "source_url": "https://www.youtube.com/watch?v=9uqfIe_vYtI&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "Last October, we proposed an AI Bill of Rights to ensure that important protections were built into the AI...",
+          "source_url": "https://www.youtube.com/watch?v=9uqfIe_vYtI&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=9uqfIe_vYtI&t=9",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=9uqfIe_vYtI&t=16",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=9uqfIe_vYtI&t=60",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "to making sure AI...",
+          "source_url": "https://www.youtube.com/watch?v=TUDBMt0eHpk&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "to making sure AI systems are safe before they are released. Last October, we proposed an AI...",
+          "source_url": "https://www.youtube.com/watch?v=TUDBMt0eHpk&t=5",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=TUDBMt0eHpk&t=5",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=TUDBMt0eHpk&t=14",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=TUDBMt0eHpk&t=21",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "Live: President Biden delivers remarks on artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=TUDBMt0eHpk&t=65",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH: Biden speaks about managing risks of AI",
+          "context": "ensure that important protections were built into the AI...",
+          "source_url": "https://www.youtube.com/watch?v=m7NxAWls0rc&t=1800",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH: Biden speaks about managing risks of AI",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=m7NxAWls0rc&t=1805",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH: Biden speaks about managing risks of AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=m7NxAWls0rc&t=1812",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        },
+        {
+          "title": "WATCH: Biden speaks about managing risks of AI",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=m7NxAWls0rc&t=1856",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-06-20"
+        }
+      ]
+    },
+    "2023-07-17": {
+      "count": 38,
+      "mentions": [
+        {
+          "title": "President Biden's remarks on Artificial Intelligence",
+          "context": "...Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=sz5UwCYbKaE&t=27",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden's remarks on Artificial Intelligence",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=sz5UwCYbKaE&t=80",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden's remarks on Artificial Intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=sz5UwCYbKaE&t=95",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden's remarks on Artificial Intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=sz5UwCYbKaE&t=122",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=20",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=46",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI-generated,...",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=115",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=133",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=144",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=179",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=231",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=246",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "President Biden delivers remarks on AI and its impact on US economy",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=i576UV7JKGA&t=273",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=6",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=6",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI-generated....",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=64",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=82",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=82",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=127",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=180",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=194",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Biden delivers remarks on artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=cG1wms1-PTM&t=222",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch: Biden delivers remarks on AI | NBC News",
+          "context": "...Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=ms4942Wl82w&t=24",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch: Biden delivers remarks on AI | NBC News",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=ms4942Wl82w&t=77",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch: Biden delivers remarks on AI | NBC News",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ms4942Wl82w&t=91",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch: Biden delivers remarks on AI | NBC News",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=ms4942Wl82w&t=119",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "And it is astounding. Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=2",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=33",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=58",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=70",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=70",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI-generated....",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=128",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=146",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=146",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=191",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=244",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=259",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        },
+        {
+          "title": "Watch again: Biden gives speech on AI after meeting with Amazon, Google and Meta executives",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=s8om8dCjfPI&t=286",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-07-21"
+        }
+      ]
+    },
+    "2023-10-02": {
+      "count": 18,
+      "mentions": [
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "AI,...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "AI, right? It's here. How do we deal with it? The Biden administration launching an artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=2",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=6",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=18",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=18",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=27",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=35",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=67",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=69",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=81",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=113",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=139",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=139",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=167",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI?...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=220",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=230",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=241",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-02"
+        },
+        {
+          "title": "How could Biden's AI executive order keep Americans safe? | NewsNation Live",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=2ks0UkSESus&t=274",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-10-02"
+        }
+      ]
+    },
+    "2023-10-30": {
+      "count": 122,
+      "mentions": [
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "In October 2023, President Biden recently issued an Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=0",
+          "matched_text": "Artificial Intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "In October 2023, President Biden recently issued an Executive Order on Safe, Secure, and Trustworthy Artificial Intelligence, or AI....",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=11",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=25",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=25",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=34",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=47",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=60",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=72",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=77",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=86",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's New Executive Order on Ethical AI - What it Means for the Future",
+          "context": "...AI is developed and used in a safe, secure, and trustworthy way.",
+          "source_url": "https://www.youtube.com/watch?v=5XoIEi6CYPQ&t=101",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "You're in the business of governance governance of AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=50",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=114",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=135",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=158",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=211",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=211",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=211",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=219",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=219",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=237",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=243",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=255",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=258",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...LLM,...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=294",
+          "matched_text": "LLM",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI Executive Order Is a Historic Moment: Credo AI CEO Singh",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=elHI0w3-_o4&t=304",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "Well, artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "Well, artificial intelligence is a big deal around here with so many AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "Well, artificial intelligence is a big deal around here with so many AI companies in the Bay Area today. AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=5",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=18",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=25",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...Artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=43",
+          "matched_text": "Artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=49",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=63",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=73",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=73",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=84",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=96",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "How companies might react to Biden's AI executive order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=oI8x5xbVUdk&t=132",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=47",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=55",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...Ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=61",
+          "matched_text": "Ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...Ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=61",
+          "matched_text": "Ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=74",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=74",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=160",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=160",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=215",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=281",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=325",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=347",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=366",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=380",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=412",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=450",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=474",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=484",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=550",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=567",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=583",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=598",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=694",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=791",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=802",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=853",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=899",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1049",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1080",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1102",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1225",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1254",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1316",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1585",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1663",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1718",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1908",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1950",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...Ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=1975",
+          "matched_text": "Ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2058",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2077",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2083",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2096",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2109",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2127",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2145",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2175",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2195",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2206",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2213",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2225",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2288",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2415",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2435",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2503",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2537",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2559",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2562",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2575",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2729",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2754",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2754",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2764",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2802",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2802",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2829",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2829",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2846",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=2940",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=3115",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "ITInsights Briefing: Implications of the Biden Administration's AI Executive Order",
+          "context": "...AI developments.",
+          "source_url": "https://www.youtube.com/watch?v=jHzwRywvrGA&t=3148",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-03"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "President Biden signing his first executive order aimed at regulating artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI-generated...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...ChatGPT's...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=53",
+          "matched_text": "ChatGPT",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=147",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=147",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=166",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=202",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=209",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=209",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-10-31"
+        },
+        {
+          "title": "Biden's AI executive order applies to models that 'practically don't exist yet', says Chris Krebs",
+          "context": "...OpenAI...",
+          "source_url": "https://www.youtube.com/watch?v=nh1LCpPlybA&t=239",
+          "matched_text": "OpenAI",
+          "president": "biden",
+          "date": "2023-10-31"
+        }
+      ]
+    },
+    "2023-11-06": {
+      "count": 123,
+      "mentions": [
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=43",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=55",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=55",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=84",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=97",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=107",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=139",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=195",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=195",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=213",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=241",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=283",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...machine learning,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=283",
+          "matched_text": "machine learning",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence?...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=293",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...OpenAI's...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=314",
+          "matched_text": "OpenAI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...ChatGPT...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=314",
+          "matched_text": "ChatGPT",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=325",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=381",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=394",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=401",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=416",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=430",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=441",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=447",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=447",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=518",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI-related...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=535",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=542",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=571",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=579",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=661",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=699",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=839",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=839",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=851",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=861",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=871",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=906",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1022",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1030",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1067",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1160",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1277",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1277",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1345",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1373",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1373",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1452",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1452",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1468",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1487",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1503",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1542",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1566",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1632",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1740",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1749",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1758",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1768",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1780",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1789",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1796",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1796",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1796",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1832",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1851",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1869",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1884",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=1949",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2010",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2049",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2055",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2105",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2150",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2163",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...Artificial Intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2191",
+          "matched_text": "Artificial Intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2230",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2244",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...GPT has...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2285",
+          "matched_text": "GPT ",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...Ai...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2292",
+          "matched_text": "Ai",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2327",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2327",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2372",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2381",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2471",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2480",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2498",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2512",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2539",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2591",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence?...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2599",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2620",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2620",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2649",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2686",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2712",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2758",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2769",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2810",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2850",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2887",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2911",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2927",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2946",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2946",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=2988",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3013",
+          "matched_text": "ai",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3049",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3062",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3077",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3083",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3111",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...machine learning...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3111",
+          "matched_text": "machine learning",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence?...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3142",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3150",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3155",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3220",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3241",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3249",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3309",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Artificial Intelligence: Breaking Down the New Biden Administration Executive Order",
+          "context": "...artificial intelligence. Thank you for joining today.",
+          "source_url": "https://www.youtube.com/watch?v=4gEnENvbzr4&t=3393",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2023-11-06"
+        },
+        {
+          "title": "Pt 2: What does Biden's AI Executive Order mean for you and me?",
+          "context": "I was just talking about what the executive order that Biden just signed on AI...",
+          "source_url": "https://www.youtube.com/watch?v=kE_eZu8ZJ_M&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-08"
+        },
+        {
+          "title": "Pt 2: What does Biden's AI Executive Order mean for you and me?",
+          "context": "...AI can give to governments.",
+          "source_url": "https://www.youtube.com/watch?v=kE_eZu8ZJ_M&t=54",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-08"
+        }
+      ]
+    },
+    "2023-11-20": {
+      "count": 3,
+      "mentions": [
+        {
+          "title": "\ud83d\udca1 Did you know? Biden has signed an executive order surrounding AI #podcast #ai #cybersecurity",
+          "context": "This executive order is a news pitch so that in the next election, the Biden administration can say, see, we protected you against AI....",
+          "source_url": "https://www.youtube.com/watch?v=rKFMCc6lAYE&t=0",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-24"
+        },
+        {
+          "title": "\ud83d\udca1 Did you know? Biden has signed an executive order surrounding AI #podcast #ai #cybersecurity",
+          "context": "...AI. Even if it's an AI overlord that has accepted the position? They're an idiot, too. we we yes we hate all politicians equally on this podcast yes",
+          "source_url": "https://www.youtube.com/watch?v=rKFMCc6lAYE&t=13",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-24"
+        },
+        {
+          "title": "\ud83d\udca1 Did you know? Biden has signed an executive order surrounding AI #podcast #ai #cybersecurity",
+          "context": "...AI overlord that has accepted the position? They're an idiot, too. we we yes we hate all politicians equally on this podcast yes",
+          "source_url": "https://www.youtube.com/watch?v=rKFMCc6lAYE&t=21",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2023-11-24"
+        }
+      ]
+    },
+    "2024-01-22": {
+      "count": 12,
+      "mentions": [
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=18",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=57",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=67",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=132",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=170",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=1235",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=1325",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=1332",
+          "matched_text": "artificial intelligence",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=1503",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=1976",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=1976",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-01-26"
+        },
+        {
+          "title": "Ep. 157: Biden\u2019s AI Executive Order and The Immigrant Superpower",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=svgKXtO8rIs&t=2133",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-01-26"
+        }
+      ]
+    },
+    "2024-03-04": {
+      "count": 4,
+      "mentions": [
+        {
+          "title": "Watch President Biden's full 2024 State of the Union address",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=al7ont2noYA&t=3675",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-03-08"
+        },
+        {
+          "title": "Watch President Biden's full 2024 State of the Union address",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=al7ont2noYA&t=3675",
+          "matched_text": "AI",
+          "president": "biden",
+          "date": "2024-03-08"
+        },
+        {
+          "title": "2024 State of the Union: Biden delivers fiery address and takes swipes at Trump",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=ifCRRwEgr1s&t=3651",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2024-03-08"
+        },
+        {
+          "title": "2024 State of the Union: Biden delivers fiery address and takes swipes at Trump",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=ifCRRwEgr1s&t=3659",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2024-03-08"
+        }
+      ]
+    },
+    "2024-07-22": {
+      "count": 1,
+      "mentions": [
+        {
+          "title": "Donald Trump Full Acceptance Speech at 2024 Republican National Convention",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=_oy8_kk2uzs&t=4957",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2024-07-22"
+        }
+      ]
+    },
+    "2025-05-05": {
+      "count": 8,
+      "mentions": [
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=27",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=40",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=100",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=104",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=106",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=126",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=151",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        },
+        {
+          "title": "Donald Trump speech, on the use of AI-generated imagery.",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=xtChoueEI50&t=156",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-05-05"
+        }
+      ]
+    },
+    "2025-07-21": {
+      "count": 20,
+      "mentions": [
+        {
+          "title": "Trump unveils \u2018AI action plan\u2019 for US dominance in artificial intelligence race",
+          "context": "Everyone is talking about artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=RJcw5VjQDFI&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-07-24"
+        },
+        {
+          "title": "Trump unveils \u2018AI action plan\u2019 for US dominance in artificial intelligence race",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=RJcw5VjQDFI&t=20",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-24"
+        },
+        {
+          "title": "Trump said the U.S. \"invented everything\" while speaking at an AI summit",
+          "context": "...AI. We invented everything. Does anyone have anything else to say?",
+          "source_url": "https://www.youtube.com/watch?v=_0Z-o_rs-cI&t=22",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-24"
+        },
+        {
+          "title": "Trump Says He Doesn\u2019t Like The Name 'Artificial Intelligence' At AI Summit",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=72UdsE34u8U&t=9",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "President Trump is set this very hour to sign artificial intelligence-related...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=17",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=23",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=42",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=42",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=42",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=72",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=75",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=75",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=124",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=133",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=144",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Details on Trump's executive orders on artificial intelligence",
+          "context": "...AI systems leaning a bit far too liberal. With the details for us tonight on the North Line of the White House, Aaron Navarro, thank you.",
+          "source_url": "https://www.youtube.com/watch?v=V_wmDHzTqFA&t=151",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-23"
+        },
+        {
+          "title": "Trump unveils 'AI action plan' for US dominance in artificial intelligence race",
+          "context": "...artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=TgYlOmIABjc&t=12",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-07-24"
+        },
+        {
+          "title": "Trump unveils 'AI action plan' for US dominance in artificial intelligence race",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=TgYlOmIABjc&t=59",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-07-24"
+        },
+        {
+          "title": "Trump unveils 'AI action plan' for US dominance in artificial intelligence race",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=TgYlOmIABjc&t=90",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-07-24"
+        }
+      ]
+    },
+    "2025-11-24": {
+      "count": 23,
+      "mentions": [
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "Now to the White House's plan to put Washington front and center in the AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=0",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=11",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=19",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=19",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=19",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=56",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=56",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=65",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=70",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=95",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=108",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=108",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=134",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...OpenAI,...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=140",
+          "matched_text": "OpenAI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=154",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=164",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=177",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=177",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=190",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=197",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...OpenAI....",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=203",
+          "matched_text": "OpenAI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=224",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        },
+        {
+          "title": "Trump signs executive order launching Genesis Mission AI project",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qQScxp8WKxk&t=224",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-11-26"
+        }
+      ]
+    },
+    "2025-12-08": {
+      "count": 68,
+      "mentions": [
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "President Trump late yesterday signed an executive order blocking states from enforcing their own laws regulating artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=7",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=24",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI-related...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=24",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=111",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=120",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=139",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=249",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=281",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=289",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=326",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump\u2019s executive order limits state regulations of artificial intelligence",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=l_BmtQ9vQGU&t=430",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "Now to Wall Street now, where stocks dip lower as tech and AI...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=1",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=22",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...artificial intelligence,...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=27",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=41",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI?...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=49",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=87",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=95",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=95",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Breaking down what Trump's executive order to block state AI regulations means",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=qqDYQmX-Lfw&t=120",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=24",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=180",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=193",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=199",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=246",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI?...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=317",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=366",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=375",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=377",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=411",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=423",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...ai...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=439",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=461",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=476",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI's...",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=476",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI in terms of medical and cancer research and things were way ahead of what we ever thought we'd be just from the infancy of AI.",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=494",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "FULL: President Trump signs executive orders on AI",
+          "context": "...AI.",
+          "source_url": "https://www.youtube.com/watch?v=j4YeshDo_Qw&t=494",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump says not signing AI executive order would be 'greatest gift' to China",
+          "context": "are you more worried about the u.s winning the race for ai...",
+          "source_url": "https://www.youtube.com/watch?v=MN_8ChOaAWw&t=0",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump says not signing AI executive order would be 'greatest gift' to China",
+          "context": "are you more worried about the u.s winning the race for ai dominance with china or about ai's...",
+          "source_url": "https://www.youtube.com/watch?v=MN_8ChOaAWw&t=0",
+          "matched_text": "ai",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump says not signing AI executive order would be 'greatest gift' to China",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=MN_8ChOaAWw&t=14",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump says not signing AI executive order would be 'greatest gift' to China",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=MN_8ChOaAWw&t=14",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump says not signing AI executive order would be 'greatest gift' to China",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=MN_8ChOaAWw&t=31",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump says not signing AI executive order would be 'greatest gift' to China",
+          "context": "...AI-based....",
+          "source_url": "https://www.youtube.com/watch?v=MN_8ChOaAWw&t=31",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-12"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "Well, this week, President Donald Trump signed an executive order that aims to keep states from regulating artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=0",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=7",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=18",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...artificial intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=28",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=28",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=45",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=53",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=62",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=70",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...Artificial Intelligence...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=70",
+          "matched_text": "Artificial Intelligence",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=79",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI-generated...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=79",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=101",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=111",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=123",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=133",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=141",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=163",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI regulation from Trump's sweeping domestic policy bill. Lawmakers also declined to add an AI moratorium to the National Defense Authorization Act.",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=171",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump issues executive order to restrict AI, days before new Texas AI law is set to take effect",
+          "context": "...AI moratorium to the National Defense Authorization Act.",
+          "source_url": "https://www.youtube.com/watch?v=Nkxi_EQdZY8&t=180",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-13"
+        },
+        {
+          "title": "Trump to sign executive order blocking AI regulation",
+          "context": "Now to today's Money Watch. President Trump is planning to stop states from regulating artificial intelligence....",
+          "source_url": "https://www.youtube.com/watch?v=MA6yWlWkQ-8&t=1",
+          "matched_text": "artificial intelligence",
+          "president": "trump",
+          "date": "2025-12-08"
+        },
+        {
+          "title": "Trump to sign executive order blocking AI regulation",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=MA6yWlWkQ-8&t=13",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-08"
+        },
+        {
+          "title": "Trump to sign executive order blocking AI regulation",
+          "context": "...AI....",
+          "source_url": "https://www.youtube.com/watch?v=MA6yWlWkQ-8&t=21",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-08"
+        },
+        {
+          "title": "Trump to sign executive order blocking AI regulation",
+          "context": "...AI...",
+          "source_url": "https://www.youtube.com/watch?v=MA6yWlWkQ-8&t=27",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-08"
+        }
+      ]
+    },
+    "2025-12-15": {
+      "count": 1,
+      "mentions": [
+        {
+          "title": "Watch: President Trump's Full Address to Nation | WSJ",
+          "context": "...AI,...",
+          "source_url": "https://www.youtube.com/watch?v=nEwe3esSytc&t=484",
+          "matched_text": "AI",
+          "president": "trump",
+          "date": "2025-12-18"
+        }
+      ]
+    }
+  },
+  "by_president": {
+    "trump": 123,
+    "biden": 350
+  }
+}
