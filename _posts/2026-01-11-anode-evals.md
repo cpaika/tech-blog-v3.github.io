@@ -22,15 +22,11 @@ My first eval to get the system working was basic - having Claude Haiku, Sonnet,
 
 Next was harder - write a CRUD CRM for creating and retrieving contacts. They all did great at this too. Interestingly, Haiku was the most cost-efficient model - even though it took more tokens than Sonnet or Opus, it was significantly cheaper. This is an interesting mental model - it's hard to know ahead of time if your problem is simple enough for a cheaper model. But if you do - you can save a lot of money, here haiku solved the problem 10x cheaper.
 
-  ┌────────┬──────────────┬───────┬──────────────┬───────────────┬───────┐
-  │ Model  │ Success Rate │ Turns │ Input Tokens │ Output Tokens │ Cost  │
-  ├────────┼──────────────┼───────┼──────────────┼───────────────┼───────┤
-  │ Opus   │ 15/15 (100%) │ 27    │ 841,142      │ 7,633         │ $2.64 │
-  ├────────┼──────────────┼───────┼──────────────┼───────────────┼───────┤
-  │ Sonnet │ 15/15 (100%) │ 20    │ 536,567      │ 5,399         │ $0.35 │
-  ├────────┼──────────────┼───────┼──────────────┼───────────────┼───────┤
-  │ Haiku  │ 15/15 (100%) │ 29    │ 1,001,267    │ 10,896        │ $0.25 │
-  └────────┴──────────────┴───────┴──────────────┴───────────────┴───────┘
+| Model  | Success Rate | Turns | Input Tokens | Output Tokens | Cost  |
+|--------|--------------|-------|--------------|---------------|-------|
+| Opus   | 15/15 (100%) | 27    | 841,142      | 7,633         | $2.64 |
+| Sonnet | 15/15 (100%) | 20    | 536,567      | 5,399         | $0.35 |
+| Haiku  | 15/15 (100%) | 29    | 1,001,267    | 10,896        | $0.25 |
 
 Next one I'm working on is more difficult - create an S3 compliant API.  At first I'll have it be a single node, then I can expand it to be a more complicated distributed S3 cluster and have the eval framework run chaos tests.
 
