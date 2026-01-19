@@ -1,4 +1,4 @@
-_posts/2026-01-18-temp-title.md ---
+---
 layout: post
 title: "LLM Agent Operations - On Trust"
 date: 2026-01-18 17:00:00
