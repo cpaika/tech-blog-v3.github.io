@@ -61,7 +61,7 @@ Even that is hard - since the models will suggest actions, and you'll need to ju
 
 These evals will be incredibly difficult to build.  There likely will be a third party organization (similar to [METR](https://metr.org/)) that creates an evaluation environment for language models on various operations tasks and grades them, publishing the results, but not the evals themselves since otherwise it would be trained on by the big labs.
 
-#### Game Time - Let's give Claude Root
+### Game Time - Let's give Claude Root
 Up to this point the language models were offering suggestions - they were performing reads, but not running commands directly. That stage is important to build trust. When the humans are 99% of the time just approving the language model's suggestion though, it's time to move to the next level. The next step is much scarier - letting the LLM take action, independently without human oversight.
 
 This will be a large shift, and most organizations will struggle or avoid this until it's impossible not to.  But the threat of intelligent automated security attackers is looming - so companies will be forced to adopt this even if it's uncomfortable. The only way to counter super-intelligent offense is by super-intelligent defense, and human-in-the-loop will just slow things down.
